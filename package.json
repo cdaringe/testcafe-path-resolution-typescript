@@ -1,0 +1,17 @@
+{
+  "name": "custom-paths",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "httpster",
+    "test": "DEBUG=testcafe* testcafe --compiler-options='typescript.configPath=tsconfig.json' chrome test/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "httpster": "1.2.1",
+    "testcafe": "2.2.0-rc.1",
+    "typescript": "4.9.4"
+  }
+}
