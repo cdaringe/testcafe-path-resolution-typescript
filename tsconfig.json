@@ -5,7 +5,6 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "noEmit": true,
     "paths": {
       "foo": ["./src/foo.ts"]
     },
